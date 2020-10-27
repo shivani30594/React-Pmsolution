@@ -1,0 +1,561 @@
+.header {
+  background: "#ccecf" !important;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav .search-container form {
+  position: relative;
+  border: 1px solid #b1dffb;
+  border-radius: 7px;
+  background-color: #ffffff;
+  margin: 0 8px 1px;
+}
+
+.topnav input[type="text"] {
+  padding: 6px 40px 6px 6px;
+  font-size: 15px;
+  border-radius: 7px;
+  height: 30px;
+  border: 2px solid #ccecff;
+  box-shadow: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 4px 10px;
+  margin-top: -1px;
+  border: 1px solid #b1dffb !important;
+  background: #66b4e2 !important;
+  font-size: 13px;
+  line-height: 0.3;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  height: 32px;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+.fa-search {
+  color: white;
+}
+
+.nav-head {
+  margin-left: 20px;
+}
+
+.financial {
+  height: 313px;
+  margin-top: 40px;
+}
+
+.card {
+  height: calc(100% - 1.5rem);
+  box-shadow: none !important;
+}
+
+.summary-status-value-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.summary-status-value-wrap .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* .summary-status-value-wrap .left .property {
+  width: calc(100% - 18px);
+} */
+
+.summary-status-value-wrap .left .property-value {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: red;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+h6.chart-title {
+  margin: 10px 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333;
+}
+
+.title-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-wrap h6 {
+  margin: 10px 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333;
+}
+
+.title-wrap h6.right {
+  color: #f86c6b;
+}
+
+.target-date-wrapper .inner-td-wrapper {
+  padding-left: 15px;
+  border-left: 4px solid #f86c6b;
+}
+
+.target-date-wrapper .inner-td-wrapper h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}
+
+.target-date-wrapper .inner-td-wrapper p {
+  font-size: 12px;
+  color: black;
+}
+
+.card .cardtabsboxs {
+  font-weight: 600;
+  padding: 0 1.25rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card .cardtabsboxs .card-header-actions {
+  margin: auto 0 auto auto;
+}
+
+.card .cardtabsboxs .nav.nav-tabs {
+  margin: 0;
+}
+
+.card .cardtabsboxs .nav.nav-tabs li a.nav-link {
+  color: #20a8d8;
+  font-weight: 600;
+}
+
+.card .cardtabsboxs .nav.nav-tabs li a.nav-link.active {
+  color: #333;
+}
+
+.doughnutText {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+
+.deliverable.doughnutText,
+.register.doughnutText {
+  top: 43%;
+}
+
+/* .deliverable.doughnutText{
+  top: 43%;
+} */
+
+.doughnutText p {
+  margin: 0 0 -6px;
+}
+
+.doughnutText span {
+  font-size: 12px;
+}
+
+.chart-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.financial {
+  position: relative;
+  padding-left: 23px;
+}
+
+.financial .chartjs-render-monitor {
+  height: 339px !important;
+}
+
+.financial .chart-footer p {
+  padding: 0 15px;
+  text-transform: capitalize;
+  margin: 0;
+  font-weight: 600;
+}
+
+.financial .chart-header {
+  position: absolute;
+  left: -17px;
+  top: 45%;
+  transform: rotate(-90deg);
+}
+
+.financial .chart-header p,
+.project .chart-header p {
+  font-weight: 600;
+}
+
+.risk {
+  position: relative;
+  padding-left: 23px;
+}
+
+.risk .chart-footer p {
+  padding: 0 15px;
+  text-transform: capitalize;
+  margin: 0;
+  font-weight: 600;
+}
+
+.risk .chart-header p {
+  position: absolute;
+  left: -17px;
+  top: 45%;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  font-weight: 600;
+}
+
+.risk .chart-footer {
+  /* position: absolute;
+  left: 57%;
+  bottom: 11%;
+  z-index: 9;
+  transform: initial;
+  font-size: 1.7rem; */
+  padding: 0 15px;
+  text-transform: capitalize;
+  margin: 0;
+  font-weight: 600;
+}
+
+.project {
+  position: relative;
+  padding-left: 23px;
+}
+
+.project .chart-footer p {
+  padding: 0 15px;
+  text-transform: capitalize;
+  margin: 0;
+  font-weight: 600;
+}
+
+.project .chart-header {
+  position: absolute;
+  left: -71px;
+  top: 45%;
+  transform: rotate(-90deg);
+}
+
+.meetings,
+.riskItems-projectwiki {
+  font-weight: 600;
+}
+
+.card-body.myproejct-boxs {
+  min-height: 380px;
+}
+
+.modal-open {
+  overflow: visible !important;
+  padding: 0 !important;
+}
+
+.card-header-actions .fa {
+  font-size: 1rem;
+}
+
+.sidebar-fixed .main-content .sidebar {
+  position: relative;
+  margin: 0;
+  height: auto;
+  width: 100%;
+  flex: 0 0 100%;
+  background: none;
+  color: #000;
+}
+
+.card-body table.table td,
+.card-body table.table th {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.card-body div.dataTables_wrapper div.dataTables_info {
+  padding: 0.5rem 0;
+}
+
+.card-body div.dataTables_wrapper div.dataTables_paginate {
+  padding: 0;
+}
+
+.card-body div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+  padding: 0;
+  margin: 0;
+}
+
+.text-summary {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: white;
+}
+
+.card-header {
+  font-size: 0.99rem;
+  font-weight: 501;
+}
+
+.card-header-icons {
+  margin-left: 10px;
+}
+
+.dataTables_wrapper thead:last-child {
+  display: none;
+}
+
+.app-header.navbar .react-datepicker {
+  position: absolute;
+  left: -7rem;
+}
+
+.react-datepicker__month-container {
+  width: 100%;
+}
+
+.project-wiki-basicinfo {
+  position: relative;
+  overflow: auto;
+  overflow-y: scroll;
+}
+
+.list-group-item-heading {
+  font-size: 1.02rem;
+}
+
+.fa-plus-minus {
+  font-size: 13px;
+}
+
+.right-calendar {
+  height: 32rem;
+}
+
+.right-calendar .rbc-toolbar .btn.btn-sm {
+  padding: 0 1.3rem 0.3rem;
+  font-size: 1.64rem;
+  line-height: 1;
+}
+
+.right-calendar .rbc-toolbar .rbc-toolbar-label {
+  width: 100%;
+  padding: 5px 0;
+  display: block;
+}
+
+.right-calendar .rbc-toolbar .rbc-btn-group {
+  margin-bottom: 15px;
+}
+
+.right-calendar .rbc-row-segment {
+  font-size: 10px;
+}
+
+.aside-menu-lg-show .rbc-toolbar .rbc-toolbar-label {
+  width: 100%;
+  display: block;
+}
+
+/* .aside-menu-lg-show .rbc-toolbar .rbc-toolbar-label .sidebar-fixed .main-content .sidebar.is-affixed .position-sticky {
+  width: 100%;
+  display: block;
+  position: relative !important;
+  width: 388px !important;
+  left : 835 !important;
+
+} */
+
+/* .sidebar-fixed .main-content .sidebar .sidebar__inner {
+  position: relative !important;
+  left: 0 !important;
+} */
+
+.financial-detail .financial-title {
+  font-weight: 600;
+}
+
+.sub-navbar.sticky {
+  position: fixed;
+  left: 0;
+  top: 45px;
+  right: 0;
+  z-index: 9999;
+}
+
+.custome-datepicker .react-datepicker-wrapper,
+.custome-datepicker .react-datepicker__input-container {
+  width: 100%;
+}
+
+/***** Responsive *****/
+
+@media (min-width: 768px) {
+  .col-doughnut {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+}
+
+@media (max-width: 991px) {
+  .app-header a.navbar-brand {
+    position: unset;
+    padding-left: 5px !important;
+    margin-right: 15px !important;
+    margin-left: inherit !important;
+  }
+  .sub-navbar ol.right-breadcrumb {
+    padding-left: inherit !important;
+  }
+
+  .sidebar-fixed .main-content .sidebar .sidebar__inner {
+    position: relative !important;
+    left: 0 !important;
+  }
+
+  .sidebar-fixed .main-content .sidebar.is-affixed .position-sticky {
+    margin-top: 0;
+    /* My CSS */
+    /* width: calc(100% - 1.5rem); */
+  }
+}
+
+@media (min-width: 992px) {
+  .header-fixed .app-body {
+    margin-top: 45px;
+  }
+
+  /* html:not([dir="rtl"]) .aside-menu-show.aside-menu-fixed .main, html:not([dir="rtl"]) .aside-menu-show.aside-menu-fixed .app-footer, html:not([dir="rtl"]) .aside-menu-lg-show.aside-menu-fixed .main, html:not([dir="rtl"]) .aside-menu-lg-show.aside-menu-fixed .app-footer {
+    flex: 0 0 calc(100% - 340px);
+    margin-right: auto !important;
+  } */
+  /* html:not([dir="rtl"]) .aside-menu-show.aside-menu-fixed .main, html:not([dir="rtl"]) .aside-menu-show.aside-menu-fixed .app-footer, html:not([dir="rtl"]) .aside-menu-lg-show.aside-menu-fixed .main, html:not([dir="rtl"]) .aside-menu-lg-show.aside-menu-fixed .app-footer {
+    flex: 0 0 100%;
+    margin-right: 0 !important;
+  } */
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .sub-navbar ol.breadcrumb li.nav-head a {
+    font-size: 13px;
+  }
+  .nav-head {
+    margin-left: 14px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .app .app-header.navbar {
+    justify-content: inherit !important;
+    height: inherit;
+  }
+  .app-header p.project-name {
+    font-size: 14px;
+  }
+
+  .topnav .search-container button {
+    float: right !important;
+    padding: 4px 10px !important;
+    margin-top: -1px !important;
+    display: block !important;
+    width: inherit !important;
+  }
+  .topnav .search-container form {
+    display: flex;
+  }
+  .app-header .navbar-nav {
+    margin-left: inherit !important;
+    margin-bottom: 8px;
+    width: 100%;
+  }
+  .app-header .navbar-nav .topnav {
+    width: 100%;
+  }
+  .app-header .navbar-nav .topnav .search-container {
+    width: 100%;
+  }
+  .app-header .navbar-nav .topnav input[type="text"] {
+    width: 100%;
+  }
+  .app-body {
+    margin-top: 87px !important;
+  }
+
+  .card-body.myproejct-boxs {
+    min-height: initial;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a,
+  .topnav input[type="text"],
+  .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type="text"] {
+    border: 1px solid #ccc;
+  }
+
+  .financial {
+    height: 251px;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .app-header p.project-name {
+    font-size: 15px !important;
+  }
+}
+
+/* basic infor */
+
+.basicinfo {
+  color: #5c6873;
+  font-family: bold;
+  background-color: #e4e7ea;
+  border-color: #c8ced3;
+}
+
+@media (max-width: 991.98px) {
+  .app-body {
+    margin-top: 45px;
+  }
+}

@@ -1,0 +1,8 @@
+#heatmap-container #heatmap-containerXAxisLabels,
+#heatmap-container #heatmap-containerYAxisLabels {
+  display: none;
+}
+
+.anychart-credits {
+  display: none;
+}

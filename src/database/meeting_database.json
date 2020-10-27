@@ -1,0 +1,86 @@
+{
+  "record_information": {
+    "schedule_info": [
+      {
+        "title": "Schedule Start Date",
+        "value": "01-01-19"
+      },
+      {
+        "title": "Schedule End Date",
+        "value": "02-16-20"
+      },
+      {
+        "title": "Transaction Start Date",
+        "value": "01-02-19"
+      },
+      {
+        "title": "Transaction End Date",
+        "value": "02-16-20"
+      },     
+      {
+        "title": "Planned Efforts",
+        "value": "2156 Hours"
+      },
+      {
+        "title": "Actual Efforts",
+        "value": "1048 Hours"
+      },
+      {
+        "title": "% Spent",
+        "value": "49%"
+      },
+      {
+        "title": "% Complete",
+        "value": "55%"
+      }
+    ],
+    "workflow_info": [
+      {
+        "title": "Status",
+        "value": "In Approval"
+      },
+      {
+        "title": "Last Approved By",
+        "value": "Neeraj Garg"
+      },
+      {
+        "title": "Next Approver",
+        "value": "Arindam"
+      },
+      {
+        "title": "Due Date",
+        "value": "06-12-19"
+      },
+      {
+        "title": "Last Approval Date",
+        "value": "05-10-19"
+      }
+    ],
+    "audit_info": [
+      {
+        "title": "Created By",
+        "value": "Suresh Padmanabhan"
+      },
+      {
+        "title": "Creation Date",
+        "value": "12-15-18"
+      },
+      {
+        "title": "Last Updated By",
+        "value": "Suresh Padmanabhan"
+      },
+      {
+        "title": "Last Updated Date",
+        "value": "06-10-19"
+      },
+      {
+        "title": "Latest Activity date",
+        "value": "06-08-19"
+      },
+      {
+        "title": "Locked By",
+        "value": "Suresh Padmanabhan"
+      }
+    ]
+  }
+}

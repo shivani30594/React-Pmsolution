@@ -1,0 +1,156 @@
+{
+  "activities": [
+    {
+      "description": "NULL",
+      "assigned_to": "NULL",
+      "start_date": "NULL",
+      "due_date": "NULL",
+      "status": "NULL",
+      "per_complete": "NULL"
+    }
+  ],
+  "workPackageInfo": {
+    "number": "1.01",
+    "name": "ADMIN",
+    "scheduleStartDate": "01-01-2019",
+    "scheduleEndDate": "03-02-2019",
+    "transactionStartDate": "01-01-2019",
+    "transactionEndDate": "03-02-2019",
+    "numberOfDays": "60.00",
+    "status": "Completed",
+    "chargeable": "Yes",
+    "billable": "Yes",
+    "estimateEffort": "300",
+    "description": "ADMIN",
+    "location": "505 S Flower St, Los Angeles, California"
+  },
+  "issues": [
+    {
+      "status": "In Progress",
+      "workPackageNumber": "1.03",
+      "issueNumber": "I2",
+      "description": "Model missing cart path modification",
+      "dueDate": "09-30-19",
+      "completed": "0%"
+    },
+    {
+      "status": "Not Started",
+      "workPackageNumber": "1.04",
+      "issueNumber": "I3",
+      "description": "Rebar estimation revisit",
+      "dueDate": "12-31-19",
+      "completed": "0%"
+    },
+    {
+      "status": "Completed",
+      "workPackageNumber": "1.01",
+      "issueNumber": "I1",
+      "description": "PM Time not included in estimate",
+      "dueDate": "03-01-19",
+      "completed": "100%"
+    }
+  ],
+  "changes": [
+    {
+      "status": "In Progress",
+      "workPackageNumber": "1.03",
+      "changeNumber": "C2",
+      "description": "Path modification design",
+      "dueDate": "09-30-19",
+      "value": "USD 150,000",
+      "completed": "40%"
+    },
+    {
+      "status": "Completed",
+      "workPackageNumber": "1.01",
+      "changeNumber": "C1",
+      "description": "Additional 20 hours for PM time",
+      "dueDate": "04-01-19",
+      "value": "USD 30,000",
+      "completed": "100%"
+    }
+  ],
+  "deliverbales": [
+    {
+      "status": "Not Started",
+      "workPackageNumber": "1.03",
+      "deliverableNumber": "D2",
+      "description": "Digital and Printed Draft of cart path modifications",
+      "dueDate": "09-12-19",
+      "estimateEffort": "240",
+      "completed": "0%"
+    },
+    {
+      "status": "Completed",
+      "workPackageNumber": "1.02",
+      "deliverableNumber": "D3",
+      "description":
+        "Digital and Printed Draft Exhibit for Potential Conversion",
+      "dueDate": "04-06-19",
+      "estimateEffort": "80",
+      "completed": "100%"
+    }
+  ],
+  "record_information": {
+    "schedule_info": [
+      {
+        "title": "Schedule Start Date",
+        "value": "01-01-19"
+      },
+      {
+        "title": "Schedule End Date",
+        "value": "03-02-19"
+      },
+      {
+        "title": "Transaction Start Date",
+        "value": "01-01-19"
+      },
+      {
+        "title": "Transaction End Date",
+        "value": "03-02-19"
+      },   
+      {
+        "title": "Planned Efforts",
+        "value": "2156 Hours"
+      },
+      {
+        "title": "Actual Efforts",
+        "value": "1048 Hours"
+      },
+      {
+        "title": "% Spent",
+        "value": "49%"
+      },
+      {
+        "title": "% Complete",
+        "value": "55%"
+      }
+    ],
+    "audit_info": [
+      {
+        "title": "Created By",
+        "value": "Suresh Padmanabhan"
+      },
+      {
+        "title": "Creation Date",
+        "value": "12-15-18"
+      },
+      {
+        "title": "Last Updated By",
+        "value": "Suresh Padmanabhan"
+      },
+      {
+        "title": "Last Updated Date",
+        "value": "06-10-19"
+      },
+      {
+        "title": "Latest Activity date",
+        "value": "06-08-19"
+      },
+      {
+        "title": "Locked By",
+        "value": "Suresh Padmanabhan"
+      }
+    ]
+  }
+}

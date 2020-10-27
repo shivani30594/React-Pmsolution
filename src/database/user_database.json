@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "id": "ee36cf63-b54e-4a14-8422-91b731b148b4",
+      "name": "Neeraj",
+      "resource": [
+        {
+          "project": "P0001",
+          "workpackage": "WP01",
+          "activityname": "A01",
+          "start_date": "07-01-19",
+          "end_date": "08-31-19",
+          "status": "In Progress",
+          "per_progress": "20%"
+        },
+        {
+          "project": "P0002",
+          "workpackage": "WP02",
+          "activityname": "A02",
+          "start_date": "07-01-19",
+          "end_date": "08-31-19",
+          "status": "Open",
+          "per_progress": "0%"
+        }
+      ]
+    },
+    {
+      "id": "eecb7a0e-c560-415a-9d7b-4657d0169adb",
+      "name": "Suresh",
+      "resource": [
+        {
+          "project": "P0001",
+          "workpackage": "WP01",
+          "activityname": "A01",
+          "start_date": "07-01-19",
+          "end_date": "08-31-19",
+          "status": "In Progress",
+          "per_progress": "20%"
+        },
+        {
+          "project": "P0002",
+          "workpackage": "WP02",
+          "activityname": "A02",
+          "start_date": "07-01-19",
+          "end_date": "08-31-19",
+          "status": "Open",
+          "per_progress": "0%"
+        }
+      ]
+    },
+    {
+      "id": "4c3e38e5-532e-4532-a0c3-6d44ece047ed",
+      "name": "Arindam",
+      "resource": [
+        {
+          "project": "P0001",
+          "workpackage": "WP01",
+          "activityname": "A01",
+          "start_date": "07-01-19",
+          "end_date": "08-31-19",
+          "status": "In Progress",
+          "per_progress": "20%"
+        },
+        {
+          "project": "P0002",
+          "workpackage": "WP02",
+          "activityname": "A02",
+          "start_date": "07-01-19",
+          "end_date": "08-31-19",
+          "status": "Open",
+          "per_progress": "0%"
+        }
+      ]
+    }
+  ]
+}

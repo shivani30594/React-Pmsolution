@@ -1,0 +1,394 @@
+{
+  "deliverablesInfo": [
+    {
+      "d_id": "46188ebb-3e76-434e-8641-5951e194bf96",
+      "number": "D2",
+      "name": "Design.Code.01(01-May-2019)",
+      "due_date": "12-09-2019",
+      "completed": "0%",
+      "status": "In Progress",
+      "workpackage": "MODELING(1.03)",
+      "planEffort": "240",
+      "actualEffort": "0",
+      "value": "USD 30,000.00",
+      "owner": "Suresh Padmanabhan",
+      "severity": "High",
+      "type": "Drawing",
+      "description":
+        "Updated digital and printed draft for cart path modifications",
+      "d_status": "Overdue",
+      "record_information": {
+        "workflow_info": [
+          {
+            "title": "Status",
+            "value": "In Progress"
+          },
+          {
+            "title": "Last Approved By",
+            "value": "Neeraj Garg"
+          },
+          {
+            "title": "Next Approver",
+            "value": "Arindam"
+          },
+          {
+            "title": "Due Date",
+            "value": "12-09-2019"
+          },
+          {
+            "title": "Last Approval Date",
+            "value": "05-10-19"
+          }
+        ],
+        "audit_info": [
+          {
+            "title": "Created By",
+            "value": "Suresh Padmanabhan"
+          },
+          {
+            "title": "Creation Date",
+            "value": "12-15-18"
+          },
+          {
+            "title": "Last Updated By",
+            "value": "Suresh Padmanabhan"
+          },
+          {
+            "title": "Last Updated Date",
+            "value": "06-10-19"
+          },
+          {
+            "title": "Latest Activity date",
+            "value": "06-08-19"
+          },
+          {
+            "title": "Locked By",
+            "value": "Suresh Padmanabhan"
+          }
+        ]
+      }
+    },
+    {
+      "d_id": "6a6065b9-e308-46c0-a42c-650b58488dad",
+      "number": "D1",
+      "name": "Design.Code.01(01-May-2019)",
+      "due_date": "12-09-2019",
+      "completed": "0%",
+      "status": "In Progress",
+      "workpackage": "MODELING(1.03)",
+      "planEffort": "240",
+      "actualEffort": "0",
+      "value": "USD 30,000.00",
+      "owner": "Suresh Padmanabhan",
+      "severity": "High",
+      "type": "Drawing",
+      "description":
+        "Updated digital and printed draft for cart path modifications",
+      "d_status": "Upcoming",
+      "record_information": {
+        "workflow_info": [
+          {
+            "title": "Status",
+            "value": "In Approval"
+          },
+          {
+            "title": "Last Approved By",
+            "value": "Neeraj Garg"
+          },
+          {
+            "title": "Next Approver",
+            "value": "Arindam"
+          },
+          {
+            "title": "Due Date",
+            "value": "06-12-19"
+          },
+          {
+            "title": "Last Approval Date",
+            "value": "05-10-19"
+          }
+        ],
+        "audit_info": [
+          {
+            "title": "Created By",
+            "value": "Suresh Padmanabhan"
+          },
+          {
+            "title": "Creation Date",
+            "value": "12-15-18"
+          },
+          {
+            "title": "Last Updated By",
+            "value": "Suresh Padmanabhan"
+          },
+          {
+            "title": "Last Updated Date",
+            "value": "06-10-19"
+          },
+          {
+            "title": "Latest Activity date",
+            "value": "06-08-19"
+          },
+          {
+            "title": "Locked By",
+            "value": "Suresh Padmanabhan"
+          }
+        ]
+      }
+    },
+    {
+      "d_id": "4ccd5179-dce4-4cf1-8af4-562aa16774a3",
+      "number": "D3",
+      "name": "Design 2.0",
+      "due_date": "12-09-2019",
+      "completed": "0%",
+      "status": "In Progress",
+      "workpackage": "MODELING(1.03)",
+      "planEffort": "240",
+      "actualEffort": "0",
+      "value": "USD 30,000.00",
+      "owner": "Suresh Padmanabhan",
+      "severity": "High",
+      "type": "Drawing",
+      "description":
+        "Updated digital and printed draft for cart path modifications",
+      "d_status": "Not Started",
+      "record_information": {
+        "workflow_info": [
+          {
+            "title": "Status",
+            "value": "In Progress"
+          },
+          {
+            "title": "Last Approved By",
+            "value": "Neeraj Garg"
+          },
+          {
+            "title": "Next Approver",
+            "value": "Arindam"
+          },
+          {
+            "title": "Due Date",
+            "value": "12-09-2019"
+          },
+          {
+            "title": "Last Approval Date",
+            "value": "05-10-19"
+          }
+        ],
+        "audit_info": [
+          {
+            "title": "Created By",
+            "value": "Suresh Padmanabhan"
+          },
+          {
+            "title": "Creation Date",
+            "value": "12-15-18"
+          },
+          {
+            "title": "Last Updated By",
+            "value": "Suresh Padmanabhan"
+          },
+          {
+            "title": "Last Updated Date",
+            "value": "06-10-19"
+          },
+          {
+            "title": "Latest Activity date",
+            "value": "06-08-19"
+          },
+          {
+            "title": "Locked By",
+            "value": "Suresh Padmanabhan"
+          }
+        ]
+      }
+    },
+    {
+      "d_id": "1b81c733-2621-4388-8f2a-a029653ec9d2",
+      "number": "D4",
+      "name": "Digital and Printed Draft of cart path modifications",
+      "due_date": "12-09-2019",
+      "completed": "0%",
+      "status": "In Progress",
+      "workpackage": "MODELING(1.03)",
+      "planEffort": "240",
+      "actualEffort": "0",
+      "value": "USD 30,000.00",
+      "owner": "Suresh Padmanabhan",
+      "severity": "High",
+      "type": "Drawing",
+      "description":
+        "Updated digital and printed draft for cart path modifications",
+      "d_status": "Overdue",
+      "record_information": {
+        "workflow_info": [
+          {
+            "title": "Status",
+            "value": "In Approval"
+          },
+          {
+            "title": "Last Approved By",
+            "value": "Neeraj Garg"
+          },
+          {
+            "title": "Next Approver",
+            "value": "Arindam"
+          },
+          {
+            "title": "Due Date",
+            "value": "06-12-19"
+          },
+          {
+            "title": "Last Approval Date",
+            "value": "05-10-19"
+          }
+        ],
+        "audit_info": [
+          {
+            "title": "Created By",
+            "value": "Suresh Padmanabhan"
+          },
+          {
+            "title": "Creation Date",
+            "value": "12-15-18"
+          },
+          {
+            "title": "Last Updated By",
+            "value": "Suresh Padmanabhan"
+          },
+          {
+            "title": "Last Updated Date",
+            "value": "06-10-19"
+          },
+          {
+            "title": "Latest Activity date",
+            "value": "06-08-19"
+          },
+          {
+            "title": "Locked By",
+            "value": "Suresh Padmanabhan"
+          }
+        ]
+      }
+    }
+  ],
+  "activities": [
+    {
+      "description": "Digital Draft",
+      "assigned_to": "Suresh Padmanabhan",
+      "start_date": "06-01-2019",
+      "due_date": "09-01-2019",
+      "status": "In progress",
+      "per_complete": "0%"
+    },
+    {
+      "description": "Printed Draft",
+      "assigned_to": "Arindam Mukherjee",
+      "start_date": "02-09-2019",
+      "due_date": "09-012-2019",
+      "status": "Not Started",
+      "per_complete": "0%"
+    }
+  ],
+  "activityLog": [
+    {
+      "date": "06-13-19 8:15 PM",
+      "by": "Neeraj Garg",
+      "comment": "Digital and Printed Draft Exhibit for Potential Conversion"
+    },
+    {
+      "date": "06-13-19 8:14 PM",
+      "by": "Arindam Mukherjee",
+      "comment": "Digital and Printed Draft of cart path modifications"
+    }
+  ],
+  "deliverablesList": [
+    {
+      "deliverable_name": "Design Document",
+      "workpackage": "WP01",
+      "type": "Document",
+      "owner": "Arindam",
+      "due_date": "01-03-20",
+      "status": "Transmitted",
+      "completion_date": "NULL",
+      "progress": "NULL",
+      "comments": "NULL",
+      "public": "Y"
+    },
+    {
+      "deliverable_name": "Design Document",
+      "workpackage": "WP02",
+      "type": "Document",
+      "owner": "SD",
+      "due_date": "01-03-20",
+      "status": "Closed",
+      "completion_date": "NULL",
+      "progress": "NULL",
+      "comments": "NULL",
+      "public": "Y"
+    }
+  ],
+  "record_information": {
+    "schedule_info": [
+      {
+        "title": "Schedule Start Date",
+        "value": "01-01-19"
+      },
+      {
+        "title": "Schedule End Date",
+        "value": "03-02-19"
+      },
+      {
+        "title": "Transaction Start Date",
+        "value": "01-01-19"
+      },
+      {
+        "title": "Transaction End Date",
+        "value": "03-02-19"
+      },    
+      {
+        "title": "Planned Efforts",
+        "value": "2156 Hours"
+      },
+      {
+        "title": "Actual Efforts",
+        "value": "1048 Hours"
+      },
+      {
+        "title": "% Spent",
+        "value": "49%"
+      },
+      {
+        "title": "% Complete",
+        "value": "55%"
+      }
+    ],
+    "audit_info": [
+      {
+        "title": "Created By",
+        "value": "Suresh Padmanabhan"
+      },
+      {
+        "title": "Creation Date",
+        "value": "12-15-18"
+      },
+      {
+        "title": "Last Updated By",
+        "value": "Suresh Padmanabhan"
+      },
+      {
+        "title": "Last Updated Date",
+        "value": "06-10-19"
+      },
+      {
+        "title": "Latest Activity date",
+        "value": "06-08-19"
+      },
+      {
+        "title": "Locked By",
+        "value": "Suresh Padmanabhan"
+      }
+    ]
+  }
+}

@@ -1,0 +1,269 @@
+.app {
+  .navbar {
+    background-color: #ccecff;
+  }
+  .main {
+    width: 50%;
+    margin: 8px auto 0;
+    .has-search .form-control {
+      padding-left: 2.375rem;
+    }
+
+    .has-search .form-control-feedback {
+      position: absolute;
+      z-index: 2;
+      display: block;
+      width: 2.375rem;
+      height: 2.375rem;
+    }
+  }
+}
+
+.app-header {
+  height: 45px;
+
+  .navbar-toggler {
+    min-width: 33px;
+  }
+
+  a.navbar-brand {
+    width: initial;
+    padding-left: 30px;
+    margin-right: 15px;
+    height: 45px;
+  }
+  p.project-name {
+    font-weight: 400;
+    text-shadow: 1px 6px 6px #bbbaba;
+    font-size: 18px;
+    margin: 0;
+  }
+
+  ul.navbar-nav {
+    li.nav-item {
+      min-width: inherit;
+      margin: 0 8px;
+
+      &.dropdown .navbar-toggler-icon {
+        min-width: 38px;
+        height: 22px;
+        margin-top: 4px;
+      }
+
+      a.nav-link {
+        .fa {
+          font-size: 22px;
+          line-height: 30px;
+        }
+
+        .navbar-toggler-icon {
+          display: block;
+        }
+
+        span.badge-pill {
+          font-size: 12px;
+        }
+
+        i {
+          display: block;
+          line-height: 30px;
+        }
+
+        button.fa.navbar-toggler {
+          font-size: 22px;
+          color: #73818f;
+          min-width: inherit;
+
+          .navbar-toggler-icon {
+            display: none;
+          }
+        }
+      }
+    }
+
+    li.dropdown.nav-item {
+      margin-left: 0;
+      a {
+        .img-avatar {
+          margin-left: 0;
+          height: 30px;
+        }
+      }
+    }
+  }
+}
+
+.card-body {
+  .tab-pane {
+    padding: 0;
+  }
+}
+
+form {
+  .form-group {
+    &.row {
+      .col-form-label {
+        max-width: 6.5rem;
+      }
+    }
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.sub-navbar {
+  border-bottom: 1px solid #c8ced3;
+  margin-bottom: 1.5rem;
+  background-color: #fff;
+
+  h4.customer-title {
+    margin: auto 0;
+    line-height: 1;
+    padding: 0 0 0 20px;
+    font-size: 18px;
+    color: #056d9e;
+  }
+
+  ol.breadcrumb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: none;
+    margin-bottom: 0;
+    li.breadcrumb-item {
+      h4 {
+        margin: 0;
+        font-size: 18px;
+        color: #056d9e;
+      }
+    }
+    li.nav-head {
+      a {
+        font-size: 13px;
+        color: #004260;
+      }
+    }
+  }
+  ol.right-breadcrumb {
+    padding-left: 0;
+    li.nav-head {
+      a {
+        color: purple;
+      }
+    }
+  }
+}
+
+.approval {
+  &-container {
+    max-width: 21.8125rem;
+    margin: auto;
+  }
+
+  &-item {
+    &:last-child {
+      max-width: 6rem;
+    }
+
+    &:not(:last-child) {
+      max-width: 12rem;
+      padding-right: 2rem;
+      position: relative;
+    }
+
+    &:not(:last-child)::after {
+      content: "\f178";
+      color: $success;
+      display: inline-block;
+      font: normal normal normal 3rem/1 FontAwesome;
+      left: 5.8rem;
+      position: absolute;
+      text-rendering: auto;
+      top: 1.2rem;
+    }
+
+    > div > .fa {
+      font-size: 3rem;
+    }
+  }
+}
+
+html:not([dir="rtl"]) .aside-menu {
+  margin-right: -340px;
+  // flex: 0 0 calc(100% - 340px);
+}
+
+.app-body {
+  .aside-menu {
+    flex: 0 0 340px;
+    width: 340px;
+  }
+}
+
+.app {
+  .main {
+    flex: 1 1;
+    margin: 0;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+  }
+}
+
+table.dataTable {
+  thead {
+    .sorting {
+      &::before,
+      &_asc::before,
+      &_asc_disabled::before,
+      &_desc::before,
+      &_desc_disabled::before {
+        content: "\f0de" !important;
+        font-family: "FontAwesome" !important;
+      }
+
+      &::after,
+      &_asc::after,
+      &_asc_disabled::after,
+      &_desc::after,
+      &_desc_disabled::after {
+        content: "\f0dd" !important;
+        font-family: "FontAwesome" !important;
+      }
+    }
+  }
+}
+
+.aside {
+  position: sticky;
+  top: 107px;
+  height: calc(100vh - 210px);
+}
+
+@media (min-width: 992px) {
+  .main {
+    .container-fluid {
+      .sub-navbar {
+        position: sticky;
+        top: 0;
+        left: 30px;
+        right: 30px;
+        z-index: 1;
+        transition: right 0.5s ease;
+      }
+    }
+  }
+
+  html:not([dir="rtl"]) .aside-menu-show.aside-menu-fixed .main,
+  html:not([dir="rtl"]) .aside-menu-show.aside-menu-fixed .app-footer,
+  html:not([dir="rtl"]) .aside-menu-lg-show.aside-menu-fixed .main,
+  html:not([dir="rtl"]) .aside-menu-lg-show.aside-menu-fixed .app-footer {
+    margin-right: 323px;
+  }
+}
